@@ -7,7 +7,7 @@
         "libhash/md4c.c", 
         "libhash/md5c.c",
         "libhash/sha0c.c"
-      ]
+      ],
       "defines": [
         "u_int32_t=uint32_t", 
         "u_int16_t=uint16_t"
