@@ -356,4 +356,7 @@ extern "C" void init (Handle<Object> target)
   target->Set(String::New("hmac_md5"), FunctionTemplate::New(hmac_md5)->GetFunction());
   target->Set(String::New("sha256"), FunctionTemplate::New(sha256)->GetFunction());
   target->Set(String::New("sha512"), FunctionTemplate::New(sha512)->GetFunction());
+
 }
+
+NODE_MODULE(hashlib, init)

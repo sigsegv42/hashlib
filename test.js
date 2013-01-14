@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var hashlib = require("./build/Release/hashlib");
 var md5 = require("./test/md5");
 var crypto = require("crypto");
